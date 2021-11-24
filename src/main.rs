@@ -94,6 +94,7 @@ fn main() {
 				grid[number] = if turn { 1 } else { 2 };
 			}
 			else {
+				turn = !turn; // invert turn 
 				continue;
 			}
 		}
